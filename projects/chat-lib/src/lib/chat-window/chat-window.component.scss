@@ -1,15 +1,12 @@
 @import "../../assets/styles/_styles.scss";
 .lib-chat-head {
-    height: 3.8rem;
-    width: 3.8rem;
-    border-radius: 3.8rem;
-    background: #024F9D;
+    height: 6.563rem;
+    width: 13.625rem;
     position: fixed;
     bottom: 0;
     right: 2rem;
     bottom: 1rem;
     z-index: 1000;
-    box-shadow: 0px 6px 16px 0px rgba(0,0,0,.24);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,11 +39,7 @@
 }
 
 .c-head img {
-    // position: absolute;
-    // top: 1.3em;
-    // left: 1.35em;
-    width: 30px;
-    height: 30px;
+    height: 105px;
 }
 .lib-chat-header {
     height: 4.6rem;
@@ -59,7 +52,7 @@
     color: #fff;
     position: relative;
     img {
-        height: 30px;
+        height: 70px;
     }
     .heading {
         margin-left: 12px;
